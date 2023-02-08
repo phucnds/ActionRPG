@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpellAnimatorOverride Controller 3
+  m_Controller: {fileID: 9100000, guid: 7e959c3b64a261b4eaa720b7656d3b0e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: dd0a4a83dce786d4f9fcb88435aa55d2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5d325ce94f0412d4698299ca8e7d6b90, type: 2}

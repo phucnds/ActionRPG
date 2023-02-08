@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fe38576006ee046b2aae4c52ef5134, type: 3}
+  m_Name: CraftItem2
+  m_EditorClassIdentifier: 
+  itemID: e1c9ef94-e753-423a-a16f-8bdb4d72b959
+  displayName: Craft Item 2
+  description: Craft Item 2
+  icon: {fileID: 21300000, guid: 5dd27a46468aebe4b8c421fdd77393a9, type: 3}
+  pickup: {fileID: 0}
+  stackable: 1
+  price: 0
+  category: 0
+  consumable: 0
+  targetingStrategy: {fileID: 0}
+  filterStrategies: []
+  effectStrageties: []
+  cooldownTime: 0
+  manaCost: 0

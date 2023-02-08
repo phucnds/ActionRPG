@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05c52e66e9669f4c93aeff91735648b, type: 3}
+  m_Name: Weapon
+  m_EditorClassIdentifier: 
+  itemID: e1d9d431-1449-4895-93f5-df6002d8289c
+  displayName: 
+  description: 
+  icon: {fileID: 21300000, guid: c5f379770ddf3470cab5328d5615bb23, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  price: 0
+  category: 0
+  allowedEquipLocation: 5
+  equipCondition:
+    and:
+    - or:
+      - predicate: 5
+        parameters:
+        - 
+        - 5
+        negate: 0
+    - or: []
+  additiveModifiers: []
+  percentageModifiers: []
+  weaponPrefab: {fileID: 0}
+  animatorOverride: {fileID: 0}
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}
+  weaponDamage: 5
+  percentageBonus: 0

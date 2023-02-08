@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8195198609446597426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 46ddeabb-11d3-42d4-bfc5-ff7ba49a43b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Black Cruelty, a finely crafted hammer engraved with the holy symbol of a
+    war god. It was taken from the barrow of the vampire Wingerni.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 306
+    y: 192
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-8117661979493018873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 05d3596a-a23b-43b9-a302-fc933e58248e
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Malefic Destiny, a masterwork mace engraved with the holy symbol of a war
+    god. It is said to be the key to open a magical portal to the Lithic Lair of
+    Tattanai.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 308
+    y: 343
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6470808917766047829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: ecc02efc-655c-42e6-8009-6513de581186
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 1
+  text: Luminous Avenger, an ornate battleaxe which was created by the dwarves of
+    the great dominion of Buzarak.
+  children:
+  - d11d2c4d-19fc-4bcd-86ae-30d2a10d30a2
+  rect:
+    serializedVersion: 2
+    x: 610
+    y: 63
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a8cd595ec2f454ab6e993cb6a64dd6, type: 3}
+  m_Name: Tales of Memeto
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 7499912532583646127}
+  - {fileID: -6470808917766047829}
+  - {fileID: 1181801071104113047}
+  - {fileID: 7068166257449800764}
+  - {fileID: 448914376118412189}
+  - {fileID: 7186380530215127898}
+  - {fileID: -8195198609446597426}
+  - {fileID: -8117661979493018873}
+--- !u!114 &448914376118412189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 3abe699a-6469-4cb3-a9e6-fb34f289ef6d
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Wavebiter, a legendary trident said to have been created to slay the Leviathan
+    of the Sea of Dike.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 961
+    y: 178
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1181801071104113047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 41dc043f-2db3-4727-a1c9-8966576eb133
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 1
+  text: Malevolent Predator, a magical crossbow engraved with runes of destruction.
+    It was created by a goddess of war for her most loyal warlord.
+  children:
+  - 3abe699a-6469-4cb3-a9e6-fb34f289ef6d
+  rect:
+    serializedVersion: 2
+    x: 613
+    y: 177
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7068166257449800764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: d11d2c4d-19fc-4bcd-86ae-30d2a10d30a2
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Corrupt Wrath, a magical dagger which was created by the elves of the ancient
+    empire of Esseargest.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 935
+    y: 64
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7186380530215127898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 3b504d00-a1d1-4dcd-b84d-31a31e6049f8
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Heavenly Victory, a finely crafted crossbow engraved with the holy symbol
+    of a goddess of war. It is said to compel its bearer to slay the Dragon of the
+    Mocha Waste.
+  children:
+  - ecc02efc-655c-42e6-8009-6513de581186
+  - 41dc043f-2db3-4727-a1c9-8966576eb133
+  rect:
+    serializedVersion: 2
+    x: 308
+    y: 62
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 6
+        parameters:
+        - e6aa22a0-8e16-480a-a1c6-17436a494703
+        - 
+        negate: 0
+--- !u!114 &7499912532583646127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: f0862e6b-a975-430e-a50b-d9f2d69a8284
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: 'Ennalan: Male Elf Entertainer, Neutral. Ennalan has messy red hair and green
+    eyes, and a pattern of unusual marks on his leg. He wears tailored clothing and
+    a dragonscale cloak. Ennalan is hard-hearted and irreverent.'
+  children:
+  - 3b504d00-a1d1-4dcd-b84d-31a31e6049f8
+  - 46ddeabb-11d3-42d4-bfc5-ff7ba49a43b4
+  - 05d3596a-a23b-43b9-a302-fc933e58248e
+  rect:
+    serializedVersion: 2
+    x: 19
+    y: 62
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

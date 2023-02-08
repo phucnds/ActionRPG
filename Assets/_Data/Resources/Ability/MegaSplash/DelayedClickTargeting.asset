@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f798c957a0cf3b43ad0cad2c9f29377, type: 3}
+  m_Name: DelayedClickTargeting
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: eeb3977c70b19c040a8de49216b0cb79, type: 3}
+  cursotHotpot: {x: 0, y: 0}
+  radius: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  targetingPrefab: {fileID: 932264488748148943, guid: a6ced1c52908f1247b2a6b93340640d6,
+    type: 3}

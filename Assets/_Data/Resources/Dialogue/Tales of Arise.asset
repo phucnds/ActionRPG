@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8604444504390200519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 7e04397a-2dea-4377-baac-e98509547b2f
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 1
+  text: Here we go !!
+  children:
+  - 97ec2217-efad-4d45-b2a4-6e06c095f4b3
+  rect:
+    serializedVersion: 2
+    x: 294
+    y: 44
+    width: 200
+    height: 100
+  onEnterAction: giveQuest
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: 6
+        parameters:
+        - e6aa22a0-8e16-480a-a1c6-17436a494703
+        - 
+        negate: 0
+--- !u!114 &-7816230172467109298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 7e096cff-3d97-4ee8-9b41-da352b7cc408
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Go
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 545
+    y: 264
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-278592407466475387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: fbdd8b94-b3e7-4608-91a7-170fb256837e
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Awesome !!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 545
+    y: 154
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a8cd595ec2f454ab6e993cb6a64dd6, type: 3}
+  m_Name: Tales of Arise
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 7298694634785110424}
+  - {fileID: -8604444504390200519}
+  - {fileID: 2898595364290189589}
+  - {fileID: -278592407466475387}
+  - {fileID: 7474704107131785883}
+  - {fileID: 1858884271254119477}
+  - {fileID: -7816230172467109298}
+--- !u!114 &1858884271254119477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: fdc4c72e-5cb0-4a17-aebf-438b062dc2f5
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 1
+  text: Let' s go.
+  children:
+  - 7e096cff-3d97-4ee8-9b41-da352b7cc408
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 264
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2898595364290189589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 653a2889-d0a2-41d1-bf6d-d35358be3a7a
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 1
+  text: I'm sorry.
+  children:
+  - fbdd8b94-b3e7-4608-91a7-170fb256837e
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 154
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7298694634785110424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: f0399d20-9931-46f9-aff4-d9461c666325
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Somewhere on Lower Maid's Arcade in a nearby village. The street is crowded
+    with drunken brawlers and the town guard.
+  children:
+  - 7e04397a-2dea-4377-baac-e98509547b2f
+  - 653a2889-d0a2-41d1-bf6d-d35358be3a7a
+  - fdc4c72e-5cb0-4a17-aebf-438b062dc2f5
+  rect:
+    serializedVersion: 2
+    x: 44
+    y: 44
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7474704107131785883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522f27667345932428209d826f50cc43, type: 3}
+  m_Name: 97ec2217-efad-4d45-b2a4-6e06c095f4b3
+  m_EditorClassIdentifier: 
+  isPlayerSpeak: 0
+  text: Great !!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 544
+    y: 44
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

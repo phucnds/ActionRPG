@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d246ddaf4101bc4cae585b4558f766d, type: 3}
+  m_Name: DelayCompositeEffect
+  m_EditorClassIdentifier: 
+  delay: 1
+  delayedEffects:
+  - {fileID: 11400000, guid: d39152fd06749f54b82fea423f5cf467, type: 2}
+  - {fileID: 11400000, guid: e17dd51adf163ab4398e162712a5d074, type: 2}
+  abortIfCancelled: 1
